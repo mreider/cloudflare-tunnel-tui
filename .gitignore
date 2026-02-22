@@ -1,0 +1,14 @@
+# Binary (root only, not cmd/tunneltui/ source)
+/tunneltui
+/mkbundle
+
+# Config files - NEVER commit these, they contain connection details
+config.yaml
+config.yml
+*.enc
+
+# OS
+.DS_Store
+
+# IDE / tools
+.claude/
